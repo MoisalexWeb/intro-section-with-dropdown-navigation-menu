@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+	
+	<title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+	<link rel="stylesheet" href="css/styles.css">
+
+	<!-- Feel free to remove these styles or customise in your own stylesheet 
+	<style>
+		.attribution { font-size: 11px; text-align: center; }
+		.attribution a { color: hsl(228, 45%, 44%); }
+	</style>
+	-->
+</head>
+<body>
+
+	<header class="header">
+		<nav class="nav">
+			<div class="nav__container">
+				<figure>
+					<img src="images/logo.svg" alt="Snap logo" class="logo">
+				</figure>
+
+				<ul class="menu">
+					<div class="nav__item__container">
+						<li class="nav-item menu__collapsed">
+							<div class="nav__header">
+								<a href="#" class="collapsed-header">Features</a>
+								<img src="images/icon-arrow-down.svg" alt="Down arrow" class="collapsed-arrow">
+							</div>
+							<ul class="menu-2">
+								<li class="collapsed-item">
+									<a href="#" class="collapsed-link"><img src="images/icon-todo.svg" alt="Todo List icon">Todo List</a>
+								</li>
+								<li class="collapsed-item">
+									<a href="#" class="collapsed-link"><img src="images/icon-calendar.svg" alt="Calendar icon">Calendar</a>
+								</li>
+								<li class="collapsed-item">
+									<a href="#" class="collapsed-link"><img src="images/icon-reminders.svg" alt="Reminders icon">Reminders</a>
+								</li>
+								<li class="collapsed-item">
+									<a href="#" class="collapsed-link"><img src="images/icon-planning.svg" alt="Planning icon">Planning</a>
+								</li>
+							</ul>
+						</li>
+
+						<li class="nav-item menu__collapsed">
+							<div class="nav__header">
+								<a href="#" class="collapsed-header">Company</a>
+								<img src="images/icon-arrow-down.svg" alt="Down arrow" class="collapsed-arrow">
+							</div>
+							<ul class="menu-2 left-0">
+								<li class="collapsed-item">
+									<a href="#" class="collapsed-link">History</a>
+								</li>
+								<li class="collapsed-item">
+									<a href="#" class="collapsed-link">Our Team</a>
+								</li>
+								<li class="collapsed-item">
+									<a href="#" class="collapsed-link">Blog</a>
+								</li>
+							</ul>
+						</li>
+
+						<li class="nav-item">
+							<a href="#">Careers</a>
+						</li>
+						<li class="nav-item">
+							<a href="#">About</a>
+						</li>
+					</div>
+
+					<div class="nav__buttons">
+						<a href="#" class="nav-cta">Login</a>
+						<a href="#" class="nav-cta border">Register</a>
+					</div>
+				</ul>
+
+			<button class="btn-menu" aria-label="Botón para menu">
+				<span class="line line-1"></span>
+				<span class="line line-2"></span>
+				<span class="line line-3"></span>
+			</button>
+			</div>
+		</nav>
+
+		<div class="header__hero">
+			<figure class="hero-img">
+				<img src="images/image-hero-mobile.png" alt="Hombre con computadora">
+			</figure>
+			<div class="hero__texts">
+				<h1 class="hero-title">Make remote work</h1>
+				<p class="hero-review">Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+				<a href="#" class="hero-cta">Learn more</a>
+
+
+				<div class="hero__brands">
+					<figure>
+						<img src="images/client-databiz.svg" alt="client databiz image" class="brands-img">
+					</figure>
+					<figure>
+						<img src="images/client-audiophile.svg" alt="client audiophile image" class="brands-img">
+					</figure>
+					<figure>
+						<img src="images/client-meet.svg" alt="client meet image" class="brands-img">
+					</figure>
+					<figure>
+						<img src="images/client-maker.svg" alt="client maker image" class="brands-img">
+					</figure>
+				</div>
+			</div>
+		</div>
+
+		<div class="capa"></div>
+	</header>
+
+	<!-- 
+	
+	
+	<div class="attribution">
+		Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+		Coded by <a href="#">Your Name Here</a>.
+	</div> -->
+
+	<script src="script.js"></script>
+
+</body>
+</html>
